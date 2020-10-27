@@ -1,0 +1,41 @@
+.navBar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    color: #a0927b;
+    background-color: #181818;
+    height: 11vh;
+    width: 100%;
+    align-items: center;
+    padding: 0 15px;
+    z-index: 200;
+    backdrop-filter: blur(10px);
+}
+
+
+.navBarHolder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
+.cartHolder{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoJ{
+    width: 65%;
+    height: 65%;
+}
+
+.cartIcon{
+    color: #a0927b;
+   font-size: 25px;
+   
+}

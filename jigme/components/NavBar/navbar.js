@@ -1,15 +1,20 @@
-import React from 'react'
 import styles from './navbar.module.css';
-
-const navbar = () => {
+import Ham from './tools/HamBurger';
+import {useState} from 'react';
+const Navbar = ({hamHandler}) => {
     return (
-        <div className={styles.navBarContainer}>
-            <div className={styles.navLogo}>
-                
+        <header className={styles.navBar}>
+            <div className={styles.navBarHolder}>
+                <div className={styles.cartHolder}>
+                    <img className={styles.logoJ} src="logo1.svg" alt="myLogo"/>
+                </div>
+                <div className={styles.hamHolder}>
+                    <Ham click={hamHandler}/>
+                </div>
             </div>
-            <div className={styles.ham}></div>
-        </div>
+
+        </header>
     )
 }
 
-export default navbar
+export default Navbar
