@@ -5,22 +5,19 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 20%;
-    background-color: #222222;
-    left: 0;
+    height: 18%;
+    background-color: #181818;
+    right: -100%;
     top: 0;
-    box-shadow: 1px 0 7px rgba(255, 255, 255, 0.205);
     z-index: 200;
+    
 }
 .logoJ{
     width: 40px;
     height: 60px;
     margin-top: 10px;
 }
-.sidebar.open{
-    transform: translateX(0);
-    
-}
+
 .sidebarHeader{
     
     display: flex;
@@ -47,18 +44,17 @@
 .sidebar > ul {
     display: flex;
     height: auto;
+    padding-bottom: 20px;
     padding-top: 100px;
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
     margin: 0 auto;
 }
 
 .sidebar > ul > li {
    list-style-type: none;
-
+    margin-right: 15px;
 }
 
 .sidebar > ul > li> a:hover, 
@@ -68,8 +64,24 @@
 
 }
 .sidebar > ul > li > a {
+    color: #ffffff;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sidebar > ul > li > a > span{
+    font-size: 11px;
+    opacity: 0;
+    margin-top: 20px;
+    transition: 0.6s opacity;
+}
+.sidebar > ul > li > a:hover > span {
+    opacity: 1;
+}
+.sidebar > ul > li > a:hover {
     color: #E07A5F;
-    font-size: 25px;
 }
 
 .imgHolder{

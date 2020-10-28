@@ -10,6 +10,44 @@ export default function Home() {
             </Head>
             <div className={styles.homepageContainer}>
                 <Navbar/>
+                <div className={styles.homeContent}>
+                    <img className={styles.bodyone} src='body.svg' alt="body"/>
+                    <img className={styles.hone} src='h1.svg' alt="h1"/>
+                    <h1
+                        aria-label="Hi, I'm igme Tashi Namgyal."
+                        className={styles.homeIntroContainer}>
+                        <span>H</span>
+                        <span>i</span>
+                        <span>,
+                        </span>
+                        <br />
+                        <span>I</span>
+                        <span>'</span>
+
+                        <span>m</span>
+                        <img src="J.svg" className={styles.jHolder}></img>
+                        <span>i</span>
+                        <span>g</span>
+                        <span>m</span>
+                        <span>e
+                        </span>
+                        <span> T</span>
+                        <span>a</span>
+                        <span>s</span>
+                        <span>h</span>
+                        <span>i
+                        </span>
+                        <br />
+                        <span>N</span>
+                        <span>a</span>
+                        <span>m</span>
+                        <span>g</span>
+                        <span>y</span>
+                        <span>a</span>
+                        <span>l</span>
+                    </h1>
+
+                </div>
             </div>
 
         </div>

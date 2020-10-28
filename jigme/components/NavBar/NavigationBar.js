@@ -1,15 +1,15 @@
 import React, {useState} from 'react'
 import NavBar from './Navbar';
 import SideBar from './tools/SideBar';
+import {motion} from 'framer-motion';
 
 const NavigationBar = () => {
     const [toggleFlag, setToggleFlag] = useState(false);
 
     const hamHandler = () => {
-        if(!toggleFlag){
-            setToggleFlag(true)
+        if (!toggleFlag) {
+            setToggleFlag(true);
         }
-        
     }
     const closeHandler = () => {
         setToggleFlag(false);
