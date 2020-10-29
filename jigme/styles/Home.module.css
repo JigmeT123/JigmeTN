@@ -15,27 +15,68 @@
   width: 100%;
   height: calc(100vh - 11vh);
   margin-top: 11vh;
+  justify-content: center;
+  transform: translateY(-5vh);
 }
 
 .bodyone {
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   margin-left: 20px;
+  margin-bottom: 60px;
+}
+.bodytwo{
+  width: 70px;
+  height: 70px;
+  margin-left: 20px;
+  margin-top:60px;
 }
 .hone{
   width: 40px;
   height: 40px;
-  margin-left: 20px;
+  margin-left: 32px;
+}
+.hone1{
+  width: 40px;
+  height: 10px;
+  object-fit: cover;
+  margin-left: 10px;
 }
 .homeIntroContainer{
-  width: 90%;
-  height: 200px;
+  width: 79%;
+  height: auto;
   color: white;
   margin: 0 auto;
+  font-size: 24px;
+  letter-spacing: 2px;
+  line-height: 40px;
 }
+
 .jHolder{
   width: 20px;
-  margin-left: 20px;
-  height: 40px;
+  margin-left: 10px;
+  height: 32px;
+  
+  object-fit: cover;
+}
 
+.homeBtn{
+  background-color: transparent !important;
+  border: #D1775F 2px solid !important;
+  color: #D1775F !important;
+  font-size: 10px !important;
+  padding: 5px 20px !important;
+  border-radius: 0px !important;
+  outline: none !important;
+  margin-top: 12px !important;
+}
+.secondaryHomeContent{
+  color: gray;
+  font-size: 10px;
+  width: 79%;
+  margin: 0 auto;
+}
+.secondaryHomeContent > p{
+  margin-top: 10px;
+  margin-bottom: 20px;
 }

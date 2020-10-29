@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Navbar from '../components/NavBar/NavigationBar';
+import {Button} from '@material-ui/core';
+
 export default function Home() {
     return (
         <div className={styles.container}>
@@ -20,7 +22,7 @@ export default function Home() {
                         <span>i</span>
                         <span>,
                         </span>
-                        <br />
+                        <br/>
                         <span>I</span>
                         <span>'</span>
 
@@ -37,7 +39,7 @@ export default function Home() {
                         <span>h</span>
                         <span>i
                         </span>
-                        <br />
+                        <br/>
                         <span>N</span>
                         <span>a</span>
                         <span>m</span>
@@ -45,8 +47,16 @@ export default function Home() {
                         <span>y</span>
                         <span>a</span>
                         <span>l</span>
+                        <span>.</span>
+                        <img className={styles.hone1} src='h1.svg' alt="h1"/>
                     </h1>
-
+                    
+                    <div className={styles.secondaryHomeContent}>
+                        <p>Noobie yet a very passionate Tech\Science explorer.</p>
+                        <Button className={styles.homeBtn}>Contact Me</Button>
+                    </div>
+                    <img className={styles.bodytwo} src='bodyClose.svg' alt="body"/>
+                    
                 </div>
             </div>
 
