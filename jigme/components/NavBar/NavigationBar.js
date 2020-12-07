@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import NavBar from './Navbar';
+import NavBar from './NavBar1';
 import SideBar from './tools/SideBar';
 
 const NavigationBar = () => {

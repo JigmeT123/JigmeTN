@@ -1,6 +1,6 @@
 import styles from './navbar.module.css';
 import Ham from './tools/HamBurger';
-import {useState} from 'react';
+
 const Navbar = ({hamHandler}) => {
     return (
         <header className={styles.navBar}>
