@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
 import NavBar from './Navbar';
 import SideBar from './tools/SideBar';
-import {motion} from 'framer-motion';
 
 const NavigationBar = () => {
     const [toggleFlag, setToggleFlag] = useState(false);
