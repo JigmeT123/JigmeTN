@@ -9,6 +9,15 @@
   width: 100%;
 
 }
+.announcement{
+  width: 80%;
+  margin: 0 auto;
+  background-color: yellow;
+  text-align: center;
+  margin-top: -50px;
+  margin-bottom: 30px;
+
+}
 .homeContent{
   display: flex;
   flex-direction: column;

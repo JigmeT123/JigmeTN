@@ -12,9 +12,14 @@ export default function Home() {
             </Head>
             <div className={styles.homepageContainer}>
                 <Navbar/>
+                
                 <div className={styles.homeContent}>
                     <img className={styles.bodyone} src='body.svg' alt="body"/>
+                    <div className={styles.announcement}>
+                    <p>The site is currently under maintenance, sorry for the inconvenience caused :)</p>
+                </div>
                     <img className={styles.hone} src='h1.svg' alt="h1"/>
+                    
                     <h1
                         aria-label="Hi, I'm igme Tashi Namgyal."
                         className={styles.homeIntroContainer}>
