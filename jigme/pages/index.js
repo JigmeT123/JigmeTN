@@ -52,7 +52,7 @@ export default function Home() {
                     </h1>
                     
                     <div className={styles.secondaryHomeContent}>
-                        <p>Noobie yet a very passionate Tech\Science explorer.</p>
+                        <p>Neophyte programmer</p>
                         <Button className={styles.homeBtn}>Contact Me</Button>
                     </div>
                     <img className={styles.bodytwo} src='bodyClose.svg' alt="body"/>
